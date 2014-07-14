@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Top 100 World Languages</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link rel="stylesheet" type="text/css" href="sequences.css"/>
+  </head>
+  <body>
+    <div id="main">
+        <h1 style="color:#413839">TOP 100 LANGUAGES OF THE WORLD</h1>
+        <p style="color:#413839"> There are over 6000 languages spoken in the world today. Explore the top 100 languages of the world below, as well as their language families.</p>
+      <div id="sequence"></div>
+      <div id="chart">
+        <div id="explanation" style="visibility: hidden;">
+          <span id="percentage"></span><br/>
+          of world population is a native speaker of this language.
+        </div>
+      </div>
+        <p> </p>
+        <p> </p>
+        <p style="color:#413839;font-size:10px"><i>Data Source: Ethnologue.com</i> </p>
+    </div>
+    <script type="text/javascript" src="sequences.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+    </script> 
+   
+  </body>
+</html>
